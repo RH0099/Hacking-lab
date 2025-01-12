@@ -3,17 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Light Rays Effect</title>
+  <title>Custom Hacking Lab</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div id="scene">
-    <div id="black-hole"></div>
-    <div class="light-ray" id="ray1"></div>
-    <div class="light-ray" id="ray2"></div>
-    <div class="light-ray" id="ray3"></div>
-    <div class="light-ray" id="ray4"></div>
-    <div class="light-ray" id="ray5"></div>
+
+  <div id="hackbar">
+    <button id="toggleBtn">Show Options</button>
+    <div id="options" class="hidden">
+      <button onclick="alert('URL copied!')">Copy URL</button>
+      <button onclick="alert('Request Sent!')">Send Request</button>
+      <button onclick="alert('Another Action!')">Another Action</button>
+    </div>
   </div>
 
   <script src="script.js"></script>
