@@ -43,4 +43,4 @@ function scaleRays() {
 setInterval(randomizeSpeed, 5000);  // Change speed periodically
 setInterval(pulsateRays, 3000);    // Add pulsating effect
 setInterval(scaleRays, 7000);      // Add scale effect
-    
+                                                                                                                
